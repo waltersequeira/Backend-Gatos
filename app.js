@@ -4,7 +4,7 @@ import gatoRoutes from "./routes/gato.routes.js";
 import climaRoutes from "./routes/clima.routes.js";
 import rateLimit from "express-rate-limit";
 import db from "./firebase.js";
-import estadisticasRoutes from "./routes/estadisticas.js";
+import estadisticasRoutes from "./routes/estadisticas.routes.js";
 
 const app = express();
 
